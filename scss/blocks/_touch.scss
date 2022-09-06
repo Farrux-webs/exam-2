@@ -53,7 +53,7 @@
     }
 }
 
-@media only screen and(max-width: 992px){
+@media only screen and(max-width: 768px){
     .touch {
         margin-bottom: 48px;
         &__wrapper {
@@ -168,7 +168,7 @@
         }
     }
     
-    @media only screen and(max-width: 992px){
+    @media only screen and(max-width: 768px){
         .touch {
             margin-bottom: 48px;
             &__wrapper {

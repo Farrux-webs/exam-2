@@ -490,7 +490,7 @@ template {
   margin: 0;
   margin-bottom: 53px;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .hero__wrapper {
     background-image: url(../../img/images/hero-tablet-bg.jpg);
     background-size: cover;
@@ -837,7 +837,7 @@ template {
   display: inline-block;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .sites__wrapper__list {
     list-style-type: none;
   }
@@ -1013,7 +1013,7 @@ template {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .touch {
     margin-bottom: 48px;
   }
@@ -1116,7 +1116,7 @@ template {
     justify-content: space-between;
   }
 }
-@media only screen and (max-width: 450px) and (max-width: 992px) {
+@media only screen and (max-width: 450px) and (max-width: 768px) {
   .touch {
     margin-bottom: 48px;
   }
@@ -1231,7 +1231,7 @@ template {
   display: none;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .cantact {
     margin-bottom: 109px;
   }
