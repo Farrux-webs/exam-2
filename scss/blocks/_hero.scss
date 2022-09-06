@@ -1,0 +1,94 @@
+.hero {
+    padding: 0 20px;
+    margin-bottom: 116px;
+    &__wrapper {
+        background-image: url(../../img/images/hero-bg.jpg);
+        padding: 240px 0 0 0;
+
+        &__contents {
+            background-color: $contsnts-bg;
+            max-width: 445px;
+            padding: 56px 55px 0 0;
+
+            &__heading {
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 50px;
+                letter-spacing: -0.446429px;
+                color: $main-text-bg;
+                margin: 0;
+                margin-bottom: 53px;
+            }
+
+            &__link{
+                @extend .link;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .hero {
+        &__wrapper {
+            background-image: url(../../img/images/hero-tablet-bg.jpg);
+            background-size: cover;
+            padding: 382px 0 0 0;
+            background-repeat: no-repeat;
+    
+            &__contents {
+                background-color: $contsnts-bg;
+                max-width: 514px;
+                padding: 56px 55px 0 0;
+    
+                &__heading {
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    letter-spacing: -0.446429px;
+                    color: $main-text-bg;
+                    margin: 0;
+                    margin-bottom: 48px;
+                }
+    
+                &__link{
+                    @extend .link;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 450px){
+    .hero {
+        position: relative;
+        &__wrapper {
+            background-image: url(../../img/images/hero-tablet-bg.jpg);
+            background-size: cover;
+            padding: 322px 0 0 0;
+            background-repeat: no-repeat;
+    
+            &__contents {
+                background-color: $contsnts-bg;
+                width: 100%;
+                padding: 24px 32px 0 0;
+                position: absolute;
+    
+                &__heading {
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    letter-spacing: -0.446429px;
+                    color: $main-text-bg;
+                    margin: 0;
+                    margin-bottom: 48px;
+                }
+    
+            }
+        }
+    }
+}

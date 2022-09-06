@@ -1,0 +1,94 @@
+.about {
+    margin-bottom: 150px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+
+        &__contents {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            margin-right: 80px;
+            &__heading {
+                font-family: 'Ibarra Real Nova';
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                letter-spacing: -0.357143px;
+                color: $main-text-bg;
+                margin-bottom: 28px;
+            }
+
+            &__text {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                color: #33323D;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+                width: 350px;
+                margin-bottom: 24px;
+
+            }
+
+            &__link{
+                @extend .link2;
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .about {
+        margin-bottom: 150px;
+        margin-top: 406px;
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+    
+
+    
+            &__contents {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                margin: 0;
+                margin-top: 50px;
+                &__heading {
+                    font-family: 'Ibarra Real Nova';
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    letter-spacing: -0.357143px;
+                    color: $main-text-bg;
+                    margin-bottom: 28px;
+                }
+    
+                &__text {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #33323D;
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                    width: 311px;
+                    margin-bottom: 24px;
+    
+                }
+    
+                &__link{
+                    @extend .link2;
+    
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,215 @@
+.cantact {
+    margin-bottom: 109px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        &__heading {
+            margin-top: 48px;
+            font-family: 'Ibarra Real Nova';
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: $main-text-bg;
+        }
+
+        &::before {
+            content: "";
+            background: $main-text-bg;
+            mix-blend-mode: normal;
+            opacity: 0.15;
+            width: 1100px;
+            display: block;
+            height: 1px;
+            margin-bottom: 48px;
+            position: absolute;
+        }
+
+
+        &__form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 48px;
+
+            input {
+                background-color: $main-text-bg;
+                mix-blend-mode: normal;
+                opacity: 0.1;
+                padding: 9px 0 9px 16px;
+                width: 635px;
+                display: block;
+                margin: 8px 0 24px 0;
+
+                &::placeholder {
+                    font-family: 'Public Sans';
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 30px;
+                    color: $main-text-bg;
+                    mix-blend-mode: normal;
+                    opacity: 0.4;
+                }
+            }
+
+            textarea {
+                background-color: $main-text-bg;
+                mix-blend-mode: normal;
+                opacity: 0.1;
+                padding: 9px 0 9px 16px;
+                width: 635px;
+                display: block;
+                margin: 8px 0 24px 0;
+            }
+        }
+
+        &__link {
+            @extend .link;
+
+            &::before {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .cantact {
+        margin-bottom: 109px;
+
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            &__heading {
+                margin-top: 48px;
+            }
+
+            &::before {
+                content: "";
+                background: $main-text-bg;
+                mix-blend-mode: normal;
+                opacity: 0.15;
+                width: 1100px;
+                display: block;
+                height: 1px;
+                margin-bottom: 48px;
+                position: absolute;
+            }
+
+
+            &__form {
+                display: flex;
+                flex-direction: column;
+                margin-top: 48px;
+
+                input {
+                    background-color: $main-text-bg;
+                    mix-blend-mode: normal;
+                    opacity: 0.1;
+                    padding: 9px 0 9px 16px;
+                    width: 635px;
+                    display: block;
+                    margin: 8px 0 24px 0;
+
+                    &::placeholder {
+                        font-family: 'Public Sans';
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 30px;
+                        color: $main-text-bg;
+                        mix-blend-mode: normal;
+                        opacity: 0.4;
+                    }
+                }
+
+                textarea {
+                    background-color: $main-text-bg;
+                    mix-blend-mode: normal;
+                    opacity: 0.1;
+                    padding: 9px 0 9px 16px;
+                    width: 635px;
+                    display: block;
+                    margin: 8px 0 24px 0;
+                }
+            }
+
+            &__link {
+                @extend .link;
+
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .cantact {
+        margin-bottom: 109px;
+
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            &__heading {
+                margin-top: 48px;
+            }
+
+            &::before {
+                content: "";
+                background: $main-text-bg;
+                mix-blend-mode: normal;
+                opacity: 0.15;
+                width: 1100px;
+                display: block;
+                height: 1px;
+                margin-bottom: 48px;
+                position: absolute;
+            }
+
+
+            &__form {
+                display: flex;
+                flex-direction: column;
+                margin-top: 48px;
+
+                input {
+                    background-color: $main-text-bg;
+                    mix-blend-mode: normal;
+                    opacity: 0.1;
+                    padding: 9px 0 9px 16px;
+                    max-width: 311px;
+                    display: block;
+                    margin: 8px 0 24px 0;
+
+                    &::placeholder {
+                        font-family: 'Public Sans';
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 30px;
+                        color: $main-text-bg;
+                        mix-blend-mode: normal;
+                        opacity: 0.4;
+                    }
+                }
+
+                textarea {
+                    background-color: $main-text-bg;
+                    mix-blend-mode: normal;
+                    opacity: 0.1;
+                    padding: 9px 0 9px 16px;
+                    max-width: 311px;
+                    display: block;
+                    margin: 8px 0 24px 0;
+                }
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.interested {
+    margin-bottom: 150px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &__heading {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: $main-text-bg;
+            width: 350px;
+        }
+
+        &__link{
+            @extend .link2;
+            width: 162px;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .interested {
+        margin-bottom: 150px;
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+    
+    
+            &__heading {
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                letter-spacing: -0.357143px;
+                color: $main-text-bg;
+                width: 311px;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+    
+            &__link{
+                @extend .link2;
+                width: 162px;
+            }
+        }
+    }
+}
